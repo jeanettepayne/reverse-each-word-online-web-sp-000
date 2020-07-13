@@ -1,3 +1,3 @@
 def reverse_each_word(sentence)
-  backward = sentence.collect
+  backward = sentence.split(" ").collect
 end
